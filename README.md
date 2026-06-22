@@ -138,10 +138,11 @@ Une application interactive a été développée avec **Streamlit** pour permett
 
 ```
 projet-anemie/
+├── brouillon/                        # Section brouillon (Structure demandée)
+│   ├── 01_EDA.ipynb                  # Analyse exploratoire
+│   ├── 02_preprocessing.ipynb        # Prétraitement
+│   └── 03_modeling.ipynb             # Modélisation
 ├── notebook/
-│   ├── 01_EDA.ipynb                  # Brouillon : Analyse exploratoire
-│   ├── 02_preprocessing.ipynb        # Brouillon : Prétraitement
-│   ├── 03_modeling.ipynb             # Brouillon : Modélisation
 │   └── Notebook_Final.ipynb          # Notebook final soigné et complet
 ├── app.py                            # Application Streamlit (Bonus)
 ├── README.md                         # Documentation du projet
